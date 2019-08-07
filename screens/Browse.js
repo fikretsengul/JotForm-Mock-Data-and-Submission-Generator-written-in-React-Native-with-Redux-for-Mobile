@@ -46,7 +46,7 @@ class Browse extends Component {
   }
 
   handleError = (error) => {
-    console.log(error.response.data)
+    console.log(error)
   }
 
   renderTab(tab) {
